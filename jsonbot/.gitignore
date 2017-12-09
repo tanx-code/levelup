@@ -1,0 +1,25 @@
+# Ds_store
+.DS_Store
+
+# virtual env
+/venv
+
+# pycache
+__pycache__
+
+# .cache
+/.cache
+
+# tests data
+/chatbot/tests/data/r/*
+/chatbot/tests/data/r/\!index.json!
+/chatbot/running_data/*
+
+# coverage temp file
+.coverage
+
+# vscode
+/.vscode
+
+# datebase file
+user_db.json

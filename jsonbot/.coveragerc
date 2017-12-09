@@ -1,0 +1,9 @@
+[run]
+include = chatbot/*
+
+[report]
+exclude_lines = 
+
+omit = chatbot/tests/*
+
+show_missing = True

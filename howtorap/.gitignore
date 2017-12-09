@@ -1,0 +1,18 @@
+# pycache
+__pycache__
+*.pyc
+
+# virtual env
+venv
+
+# emacs backup
+.#*
+
+# ide
+.idea
+
+# .DS_Store
+.DS_Store
+
+# vscode
+.vscode

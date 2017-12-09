@@ -1,0 +1,25 @@
+digraph hierarchy {
+rankdir = LR;
+size = "8,5"
+node[shape = circle];
+S0 [label="S0"]
+S1 [label="S1"]
+S2 [label="S2"]
+S3 [shape=doublecircle, label="S3"]
+S4 [shape=doublecircle, label="S4"]
+S5 [label="S5"]
+S6 [shape=doublecircle, label="S6"]
+S7 [shape=doublecircle, label="S7"]
+S0->S1 [label="+" ]
+S0->S2 [label="-" ]
+S0->S3 [label="0 - 9" ]
+S1->S3 [label="0 - 9" ]
+S2->S3 [label="0 - 9" ]
+S3->S4 [label="0 - 9" ]
+S3->S5 [label="." ]
+S4->S4 [label="0 - 9" ]
+S4->S5 [label="." ]
+S5->S6 [label="0 - 9" ]
+S6->S7 [label="0 - 9" ]
+S7->S7 [label="0 - 9" ]
+}

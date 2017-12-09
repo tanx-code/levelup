@@ -1,0 +1,45 @@
+FUNCTION feb
+t2 = d: 0
+i = t2
+t5 = d: 1
+j = t5
+t7 = d: 1
+k = t7
+LABEL 1
+t9 = i
+t10 = d: 10
+IF t9 < t10 GOTO LABEL 2
+t11 = s:
+t12 = s:
+t13 = j
+PARAM t13
+t14 = t11
+PARAM t14
+t15 = k
+PARAM t15
+t16 = t12
+PARAM t16
+t17 = CALL print 4
+t18 = j
+t19 = k
+t20 + t18 t19
+t21 = t20
+j = t21
+t22 = k
+t23 = j
+t24 + t22 t23
+t25 = t24
+k = t25
+t26 = i
+t27 = d: 1
+t28 + t26 t27
+t29 = t28
+i = t29
+GOTO LABEL 1
+LABEL 2
+t30 = s: hello world!!!
+t31 = t30
+PARAM t31
+t32 = CALL print 1
+EXIST
+t33 = CALL feb 0

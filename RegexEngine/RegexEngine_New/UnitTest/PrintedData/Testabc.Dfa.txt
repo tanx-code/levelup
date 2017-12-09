@@ -1,0 +1,7 @@
+[START]State<0>
+    To State<1> : <Char : 97[a] - 97[a]>
+State<1>
+    To State<2> : <Char : 98[b] - 98[b]>
+[FINISH]State<2>
+    To State<3> : <Char : 99[c] - 99[c]>
+[FINISH]State<3>

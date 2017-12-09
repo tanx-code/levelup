@@ -1,0 +1,31 @@
+﻿[START]State<0>
+    To State<1> : <Char : 34["] - 34["]>
+State<1>
+    To State<10> : <Epsilon>
+State<2>
+    To State<4> : <Epsilon>
+    To State<6> : <Epsilon>
+State<3>
+    To State<10> : <Epsilon>
+State<4>
+    To State<5> : <Char : 1[] - 33[!]>
+    To State<5> : <Char : 35[#] - 91[[]>
+    To State<5> : <Char : 93[]] - 65535[]>
+State<5>
+    To State<3> : <Epsilon>
+State<6>
+    To State<7> : <Char : 92[\] - 92[\]>
+State<7>
+    To State<8> : <Epsilon>
+State<8>
+    To State<9> : <Char : 1[] - 65535[]>
+State<9>
+    To State<3> : <Epsilon>
+State<10>
+    To State<2> : <Epsilon>
+    To State<11> : <Nop>
+State<11>
+    To State<12> : <Epsilon>
+State<12>
+    To State<13> : <Char : 34["] - 34["]>
+[FINISH]State<13>

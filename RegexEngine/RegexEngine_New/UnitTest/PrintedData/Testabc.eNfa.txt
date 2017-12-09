@@ -1,0 +1,16 @@
+[START]State<0>
+    To State<1> : <Char : 97[a] - 97[a]>
+State<1>
+    To State<2> : <Epsilon>
+State<2>
+    To State<3> : <Char : 98[b] - 98[b]>
+State<3>
+    To State<6> : <Epsilon>
+State<4>
+    To State<5> : <Char : 99[c] - 99[c]>
+State<5>
+    To State<7> : <Epsilon>
+State<6>
+    To State<4> : <Epsilon>
+    To State<7> : <Nop>
+[FINISH]State<7>

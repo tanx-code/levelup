@@ -1,0 +1,54 @@
+﻿[START]State<0>
+    To State<1> : <Char : 47[/] - 47[/]>
+State<1>
+    To State<2> : <Epsilon>
+State<2>
+    To State<3> : <Char : 42[*] - 42[*]>
+State<3>
+    To State<15> : <Epsilon>
+State<4>
+    To State<6> : <Epsilon>
+    To State<8> : <Epsilon>
+State<5>
+    To State<15> : <Epsilon>
+State<6>
+    To State<7> : <Char : 1[] - 41[)]>
+    To State<7> : <Char : 43[+] - 65535[]>
+State<7>
+    To State<5> : <Epsilon>
+State<8>
+    To State<9> : <Char : 42[*] - 42[*]>
+State<9>
+    To State<10> : <Epsilon>
+    To State<12> : <Nop>
+State<10>
+    To State<11> : <Char : 42[*] - 42[*]>
+State<11>
+    To State<9> : <Epsilon>
+State<12>
+    To State<13> : <Epsilon>
+State<13>
+    To State<14> : <Char : 1[] - 41[)]>
+    To State<14> : <Char : 43[+] - 46[.]>
+    To State<14> : <Char : 48[0] - 65535[]>
+State<14>
+    To State<5> : <Epsilon>
+State<15>
+    To State<4> : <Epsilon>
+    To State<16> : <Nop>
+State<16>
+    To State<17> : <Epsilon>
+State<17>
+    To State<18> : <Char : 42[*] - 42[*]>
+State<18>
+    To State<19> : <Epsilon>
+    To State<21> : <Nop>
+State<19>
+    To State<20> : <Char : 42[*] - 42[*]>
+State<20>
+    To State<18> : <Epsilon>
+State<21>
+    To State<22> : <Epsilon>
+State<22>
+    To State<23> : <Char : 47[/] - 47[/]>
+[FINISH]State<23>
